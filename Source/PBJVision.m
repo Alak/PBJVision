@@ -32,7 +32,7 @@
 #import <ImageIO/ImageIO.h>
 #import <OpenGLES/EAGL.h>
 
-#define LOG_VISION 1
+#define LOG_VISION 0
 #ifndef DLog
 #if !defined(NDEBUG) && LOG_VISION
 #   define DLog(fmt, ...) NSLog((@"VISION: " fmt), ##__VA_ARGS__);
