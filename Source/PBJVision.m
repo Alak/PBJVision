@@ -2082,7 +2082,7 @@ typedef void (^PBJVisionBlock)();
             videoDimensions.height = (int32_t)(dimensions.width * 3 / 4.0f);
             break;
         }
-        case TribeCustomFormat:
+        case PBJOutputFormatTribe:
         {
           videoDimensions.width = 360.0f;
           videoDimensions.height = 640.0f;
