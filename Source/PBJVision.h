@@ -122,6 +122,7 @@ extern NSString * const PBJVisionVideoCapturedDurationKey; // Captured duration 
 // suggested videoBitRate constants
 
 static CGFloat const PBJVideoBitRate480x360 = 87500 * 8;
+static CGFloat const TribeCustomBitRate = 250000 * 8;
 static CGFloat const PBJVideoBitRate640x480 = 437500 * 8;
 static CGFloat const PBJVideoBitRate1280x720 = 1312500 * 8;
 static CGFloat const PBJVideoBitRate1920x1080 = 2975000 * 8;
